@@ -1,0 +1,25 @@
+@mixin skill-card {
+  width: 434px;
+  height: 531px;
+  border-radius: 10px;
+  background-color: $main-color-bg;
+}
+
+@mixin speaking-card {
+  width: 435px;
+  height: 894px;
+  border-radius: 10px;
+  background-color: $main-color-bg;
+}
+
+@mixin listening-card {
+  width: 885px;
+  height: 343px;
+  border-radius: 10px;
+  background-color: $main-color-bg;
+}
+
+@mixin money-card {
+  width: 240px;
+  height: 45px;
+} 

@@ -1,0 +1,931 @@
+.skill {
+  &__container {
+    width: 1338px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  &__wrap {
+    width: 1338px;
+    height: 1091px;
+  }
+
+  &__text {
+    width: 1338px;
+    height: 80px;
+    margin-top: 147px;
+    text-align: center;
+  }
+
+  &__text h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color:$main-color-black;
+  }
+}
+
+.wrapper-box {
+  width: 1338px;
+  display: flex;
+  justify-content: space-between;
+  margin-top:117px;
+  position: relative;
+}
+
+.box {
+  width: 885px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Speaking-about {
+  @include speaking-card;
+  padding: 0 22.5px;
+
+  &__heading {
+    width: 144px;
+    height: 80px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $main-color-nav;
+  }
+
+
+  &__text {
+    margin: 0;
+    padding: 13px 0 0 0;
+    width: 370px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+  }
+
+  &__paragraph {
+    margin: 0;
+    padding:35px 0 0 0;
+    width: 330px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+  }
+
+  &__btn{
+    margin-top: 36px;
+    padding: 15px 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $white-color;
+    background-color:$main-color-nav;
+    border-radius:5px;
+    cursor: pointer;
+  }
+}
+
+.Writing-about {
+  @include skill-card;
+
+  &__heading {
+    margin: 0;
+    padding-left:41px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $main-color-nav;
+  }
+
+  &__img {
+    margin-left: 135px;
+  }
+
+
+  &__text {
+    margin: 0;
+    padding-left:41px;
+    width: 391px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+  }
+
+  &__btn{
+    padding: 15px 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $white-color;
+    background-color:$main-color-nav;
+    border-radius:5px;
+    cursor: pointer;
+    margin-left: 41px;
+    margin-top: 30px;
+  }
+}
+
+.Reading-about {
+  @include skill-card;
+  float: right;
+
+  &__heading {
+    padding-left: 43px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $main-color-nav;
+    
+  }
+  
+  &__img {
+    margin-left: 0;
+  }
+
+  &__text {
+    padding-left: 43px;
+    width: 403px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+  }
+
+  &__btn{
+    padding: 15px 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $white-color;
+    background-color:$main-color-nav;
+    border-radius:5px;
+    cursor: pointer;
+    margin-left: 43px;
+    margin-top: 30px;
+  }
+}
+
+
+.Listening-about {
+  @include listening-card;
+  margin-right: 0;
+  padding-top: 43px;
+  background-image: url("../img/listening-bro.png");
+  background-repeat: no-repeat;
+  background-position: 470px 43px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  &__heading {
+    padding-left: 48px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $main-color-nav;
+  }
+
+  &__text {
+    padding-left: 48px;
+    width: 378px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+  }
+
+  &__btn{
+    margin-left: 48px;
+    padding: 15px 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $white-color;
+    background-color:$main-color-nav;
+    border-radius:5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .skill {
+    &__container {
+      width: 929px;
+    }
+  
+    &__wrap {
+      width: 929px;
+      height: 829px;
+    }
+  
+    &__text {
+      width: 929px;
+      margin-top: 72px;
+    }
+  
+    &__text h3 {
+      font-size: 36px;
+    }
+  }
+  
+  .wrapper-box {
+    width: 929px;
+    margin-top:53px;
+  }
+  
+  .box {
+    width: 616px;
+  }
+  
+  .Speaking-about {
+    width: 303px;
+    height: 696px;
+    &__heading {
+      width: 144px;
+      height: 69px;
+      font-size: 22px;
+    }
+
+    &__img {
+      width: 260px;
+      height: 260px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    &__text {
+      margin: 0;
+      padding: 13px 0 0 0px;
+      width: 262px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $main-color;
+    }
+  
+    &__paragraph {
+      padding:20px 0 0 0px;
+      width: 262px;
+      font-size: 14px;
+      line-height: 21px;  
+    }
+  
+    &__btn{
+      margin-top: 30px;
+      padding: 15px 42px;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+  
+  .Writing-about {
+    width: 302px;
+    height: 441px;
+    &__heading {
+
+      padding-left:29px;
+      font-size: 22px;
+      line-height: 65px;
+    }
+  
+    &__img {
+      margin-left: 75px;
+      width: 205px;
+      height: 190px;
+    }
+  
+  
+    &__text {
+      padding-left:29px;
+      width: 274px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    &__btn{
+      padding: 15px 42px;
+      font-size: 18px;
+      line-height: 27px;
+      margin-left: 29px;
+      margin-top: 15px;
+    }
+  }
+  
+  .Reading-about {
+    width: 302px;
+    height: 441px;
+  
+    &__heading {
+      padding-left: 29px;
+      font-size: 22px;
+      line-height: 65px;
+    }
+    
+    &__img {
+      margin-left: 0;
+      width: 243px;
+      height: 190px;
+    }
+  
+    &__text {
+      padding-left: 29px;
+      width: 262px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    &__btn{
+      padding: 15px 42px;
+      font-size: 18px;
+      line-height: 27px;
+      margin-left: 29px;
+      margin-top: 15px;
+    }
+  }
+  
+  
+  .Listening-about {
+    width: 616px;
+    height: 241px;
+    padding-top: 3px;
+    background-image: url("../img/listening-img.png");
+    background-position: 342px 36px;
+
+    &__heading {
+      padding-left: 29px;
+      font-size: 22px;
+      line-height: 70px;
+    }
+  
+    &__text {
+      padding-left: 29px;
+      width: 290px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    &__btn{
+      margin-left: 29px;
+      padding: 15px 42px;
+      font-size: 18px;
+      line-height: 27px;
+      margin-top:11px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width:797px) {
+  .skill {
+    &__container {
+      width: 690px;
+    }
+  
+    &__wrap {
+      width: 690px;
+      height: 829px;
+    }
+  
+    &__text {
+      width: 690px;
+      margin-top: 72px;
+    }
+  
+    &__text h3 {
+      font-size: 36px;
+    }
+  }
+  
+  .wrapper-box {
+    width: 690px;
+    margin-top:86px;
+  }
+  
+  .box {
+    width: 457px;
+  }
+  
+  .Speaking-about {
+    width: 224px;
+    height: 662px;
+
+    &__heading {
+      width: 137px;
+      height: 69px;
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 214px;
+      height: 214px;
+    }
+  
+    &__text {
+      margin: 0;
+      padding: 10px 0 0 0px;
+      width: 197px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__paragraph {
+      padding:20px 0 0 0px;
+      width: 197px;
+      font-size: 13px;
+      line-height: 20px;  
+    }
+  
+    &__btn{
+      width: 178px;
+      height: 50px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  
+  .Writing-about {
+    width: 227px;
+    height: 441px;
+
+
+    &__heading {
+      height: 60px;
+      padding-left:17px;
+      font-size: 23px;
+      line-height: 20px;
+      padding-top: 20px;
+    }
+  
+    &__img {
+      margin-left: 0px;
+      width: 200px;
+      height: 200px;
+    }
+  
+  
+    &__text {
+      padding-left:17px;
+      width: 208px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__btn{
+      width: 178px;
+      height: 50px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+      margin-top: 15px;
+    }
+  }
+  
+  .Reading-about {
+    width: 227px;
+    height: 441px;
+  
+    &__heading {
+      padding-left: 17px;
+      font-size: 20px;
+      line-height: 65px;
+    }
+    
+    &__img {
+      margin-left: 0;
+      width: 216px;
+      height: 190px;
+    }
+  
+    &__text {
+      padding-left: 17px;
+      width: 208px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__btn{
+      width: 178px;
+      height: 50px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+      margin-top: 15px;
+    }
+  }
+  
+  
+  .Listening-about {
+    width: 462px;
+    height: 210px;
+    padding-top: 3px;
+    background-image: url("../img/Listening-bro1.png");
+    background-position: 260px 36px;
+
+    &__heading {
+      padding-left: 17px;
+      font-size: 22px;
+      line-height: 50px;
+    }
+  
+    &__text {
+      padding-left: 17px;
+      width: 260px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    &__btn{
+      width: 178px;
+      height: 50px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+      margin-top:11px;
+    }
+  }
+}
+
+
+@media only screen and (max-width:575px) {
+  .skill {
+    &__container {
+      width: 510px;
+    }
+  
+    &__wrap {
+      width: 510px;
+      height: 829px;
+    }
+  
+    &__text {
+      width: 510px;
+      margin-top: 72px;
+    }
+  
+    &__text h3 {
+      font-size: 30px;
+    }
+  }
+  
+  .wrapper-box {
+    width: 510px;
+    margin-top:34px;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 510px;
+  }
+  
+  .Speaking-about {
+    width: 240px;
+    height: 534px;
+
+    &__heading {
+      width: 137px;
+      height: 45px;
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    &__img {
+      width: 185px;
+      height: 185px;
+    }
+  
+    &__text {
+      margin: 0;
+      padding: 10px 0 0 0px;
+      width: 197px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    &__paragraph {
+      padding:20px 0 0 0px;
+      width: 197px;
+      font-size: 13px;
+      line-height: 20px;  
+    }
+  
+    &__btn{
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  
+  .Writing-about {
+    width: 240px;
+    height: 534px;
+
+    &__heading {
+      height: 60px;
+      padding-left:17px;
+      font-size: 23px;
+      line-height: 20px;
+      padding-top: 33px;
+    }
+  
+    &__img {
+      margin-left: 17px;
+      padding-top: 10px;
+      width: 182px;
+      height: 182px;
+    }
+  
+  
+    &__text {
+      padding-left:17px;
+      width: 208px;
+      font-size: 13px;
+      line-height: 20px;
+      padding-top: 10px;
+    }
+  
+    &__btn{
+      width: 200px;
+      font-size: 14px;
+      line-height: 21px;
+      margin-left: 17px;
+      margin-top: 94px;
+    }
+  }
+  
+  .Reading-about {
+    margin-top: 20px;
+    width: 240px;
+    height: 534px;
+  
+    &__heading {
+      padding-left: 17px;
+      font-size: 20px;
+      line-height: 65px;
+    }
+    
+    &__img {
+      margin-top: 20px;
+      width: 198px;
+      height: 132px;
+    }
+  
+    &__text {
+      padding-left: 17px;
+      width: 208px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__btn{
+      width: 200px;
+      margin-top: 135px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+    }
+  }
+  
+  
+  .Listening-about {
+    position: absolute;
+    top: 670px;
+    width: 240px;
+    height: 534px;
+    background-image: url("../img/Listening-bro2.png");
+    background-position: 0px 20px;
+
+    &__heading {
+      padding-top: 160px;
+      padding-left: 17px;
+      font-size: 22px;
+      line-height: 50px;
+    }
+  
+    &__text {
+      padding-left: 17px;
+      width: 260px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    &__btn{
+      width: 200px;
+      height: 50px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+      margin-top:156px;
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width:320px) {
+  .skill {
+    &__container {
+      width: 290px;
+    }
+  
+    &__wrap {
+      width: 290px;
+    }
+  
+    &__text {
+      width: 290px;
+      margin-top: 72px;
+    }
+  
+    &__text h3 {
+      font-size: 30px;
+    }
+  }
+  
+  .wrapper-box {
+    width: 290px;
+    margin-top:34px;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 290px;
+    flex-wrap: wrap;
+  }
+  
+  .Speaking-about {
+    width: 290px;
+    height: 600px;
+
+    &__heading {
+      width: 137px;
+      height: 70px;
+      font-size: 20px;
+      line-height: 80px;
+      padding: 0;
+      margin: 0;
+    }
+
+    &__img {
+      width: 213px;
+      height: 213px;
+    }
+  
+    &__text {
+      margin: 0;
+      padding: 10px 0 0 0px;
+      width: 258px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    &__paragraph {
+      padding:20px 0 0 0px;
+      width: 258px;
+      font-size: 13px;
+      line-height: 20px;  
+    }
+  
+    &__btn{
+      width: 178px;
+      height: 50px;
+      text-align: center;
+      margin-top: 45px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  
+  .Writing-about {
+    margin-top: 20px;
+
+    width: 290px;
+    height: 600px;
+
+    &__heading {
+      height: 70px;
+      padding-left:17px;
+      font-size: 23px;
+      line-height: 80px;
+      padding-top: 0;
+    }
+  
+    &__img {
+      margin-left:37px;
+      padding-top: 60px;
+      width: 204px;
+      height: 204px;
+    }
+  
+  
+    &__text {
+      padding-left:17px;
+      width: 258px;
+      font-size: 13px;
+      line-height: 20px;
+      padding-top: 10px;
+    }
+  
+    &__btn{
+      width: 178px;
+      font-size: 14px;
+      line-height: 21px;
+      margin-left: 17px;
+      margin-top: 120px;
+    }
+  }
+  
+  .Reading-about {
+    margin-top: 20px;
+    width: 290px;
+    height: 600px;
+  
+    &__heading {
+      padding-left: 17px;
+      height: 70px;
+      font-size: 20px;
+      line-height: 80px;
+    }
+    
+    &__img {
+      margin-top: 30px;
+      margin-left: 20px;
+      width: 236px;
+      height: 157px;
+    }
+  
+    &__text {
+      padding-left: 17px;
+      width: 258px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__btn{
+      width: 178px;
+      margin-top: 145px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+    }
+  }
+  
+  
+  .Listening-about {
+    position: relative;
+    top: 20px;
+    width: 290px;
+    height: 600px;
+    background-image: url("../img/Listening-bro3.png");
+    background-position: 20px 33px;
+
+    &__heading {
+      padding-top: 210px;
+      padding-left: 17px;
+      font-size: 22px;
+      line-height: 50px;
+    }
+  
+    &__text {
+      padding-left: 17px;
+      width: 288px;
+      font-size: 14px;
+      line-height: 21px;
+      padding-top: 10px;
+    }
+  
+    &__btn{
+      width: 178px;
+      height: 50px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 17px;
+      margin-top:156px;
+    }
+  }
+}

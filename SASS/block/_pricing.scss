@@ -1,0 +1,537 @@
+.section {
+  &__container {
+    width: 1338px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__wrapper {
+    width: 1338px;
+  }
+}
+
+.pricing {
+  &__about {
+    margin-top: 229px;
+    width: 1338px;
+    height: 80px;
+    text-align: center;   
+  }
+
+  &__about h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $main-color-black;
+  }
+
+  &__list {
+    margin-top: 70px;
+    width: 1338px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__ollayn-course, &__ollayn-class, &__education{
+    width: 420px;
+    list-style-type: none;
+  }
+
+  &__ollayn-course h4, &__ollayn-class h4, &__education h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: $main-color-nav;
+  }
+
+  &__ollayn-course h4 {
+    padding-top: 29px;
+  }
+
+  &__ollayn-class h4 {
+    padding-top: 57px;
+  }
+
+  &__ollayn-course p, &__ollayn-class p, &__education p{
+    margin-top: 15px;
+    width: 420px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $main-color;
+  }
+
+  &__education p {
+    margin-top: 15px;
+    width: 425px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $main-color;   
+  }
+
+  &__ollayn-course div, &__ollayn-class div, &__education div{
+    margin-top: 30px;
+    @include money-card;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 20px;
+  }
+
+  &__ollayn-course div span, &__ollayn-class div span, &__education div span {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: $main-color-nav;
+  }
+
+  &__ollayn-course b, &__ollayn-class b, &__education b {
+    padding-top: 7px;
+    padding-left: 11px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+  }
+
+}
+
+@media only screen and (max-width:992px) {
+  .section {
+    &__container {
+      width:929px;
+    }
+  
+    &__wrapper {
+      width: 929px;
+    }
+  }
+
+  .pricing {
+    &__about {
+      margin-top: 125px;
+      width: 929px;
+    }
+  
+    &__about h3 {
+      font-size: 36px;
+    }
+  
+    &__list {
+      margin-top: 32px;
+      width: 929px;
+    }
+  
+    &__ollayn-course, &__ollayn-class, &__education{
+      width: 280px
+    }
+  
+    &__ollayn-course h4, &__ollayn-class h4, &__education h4 {
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    &__ollayn-course h4 {
+      padding-top: 20px;
+    }
+  
+    &__ollayn-class h4 {
+      padding-top: 47px;
+    }
+
+    &__ollayn-course .img {
+      width: 222px;
+      height: 222px;
+    }
+  
+    &__ollayn-class .image {
+      width: 267px;
+      height: 195px;
+    }
+
+    &__education .images {
+      width: 242px;
+      height: 242px;
+    }
+  
+    &__ollayn-course p, &__ollayn-class p {
+      margin-top: 10px;
+      width: 280px;
+      height: 90px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    &__education p {
+      width: 275px;
+      height: 90px;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    &__ollayn-course div, &__ollayn-class div, &__education div{
+      width: 205px;
+      height: 45px;
+    }
+  
+    &__ollayn-course div span, &__ollayn-class div span, &__education div span {
+      margin-top: 5px;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  
+    &__ollayn-course b, &__ollayn-class b, &__education b {
+      padding-top: 10px;
+      padding-left: 11px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width:797px) {
+  .section {
+    &__container {
+      width:690px;
+    }
+  
+    &__wrapper {
+      width: 690px;
+    }
+  }
+
+  .pricing {
+    &__about {
+      margin-top: 125px;
+      width: 690px;
+    }
+  
+    &__about h3 {
+      font-size: 36px;
+    }
+  
+    &__list {
+      margin-top: 32px;
+      width: 690px;
+    }
+  
+    &__ollayn-course, &__ollayn-class, &__education{
+      width: 220px
+    }
+  
+    &__ollayn-course h4, &__ollayn-class h4, &__education h4 {
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    &__ollayn-course h4 {
+      padding-top: 20px;
+    }
+  
+    &__ollayn-class h4 {
+      padding-top: 47px;
+      width: 198px;
+    }
+
+    &__education h4 {
+      width: 168px;
+    }
+
+    &__ollayn-course .img {
+      width: 197px;
+      height: 197px;
+    }
+  
+    &__ollayn-class .image {
+      width: 219px;
+      height: 168px;
+    }
+
+    &__education .images {
+      width: 210px;
+      height: 210px;
+    }
+  
+    &__ollayn-course p, &__ollayn-class p {
+      margin-top: 10px;
+      width: 220px;
+      height: 90px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    &__education p {
+      width: 205px;
+      height: 90px;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    &__ollayn-course div, &__ollayn-class div, &__education div{
+      width: 205px;
+      height: 45px;
+    }
+  
+    &__ollayn-course div span, &__ollayn-class div span, &__education div span {
+      margin-top: 5px;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  
+    &__ollayn-course b, &__ollayn-class b, &__education b {
+      padding-top: 10px;
+      padding-left: 11px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+
+@media only screen and (max-width:575px) {
+  .section {
+    &__container {
+      width:510px;
+    }
+  
+    &__wrapper {
+      width: 510px;
+    }
+  }
+
+  .pricing {
+    &__about {
+      margin-top: 375px;
+      width: 510px;
+    }
+  
+    &__about h3 {
+      font-size: 36px;
+    }
+  
+    &__list {
+      margin-top: 32px;
+      width: 510px;
+      flex-direction: column;
+    }
+  
+    &__ollayn-course, &__ollayn-class, &__education{
+      width: 510px
+    }
+  
+    &__ollayn-course h4, &__ollayn-class h4, &__education h4 {
+      width: 510px;
+      text-align: center;
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    &__ollayn-course h4 {
+      padding-top: 20px;
+    }
+  
+    &__ollayn-class h4 {
+      padding-top: 21px;
+    }
+
+    &__ollayn-course .img {
+      width: 291px;
+      height: 291px;
+      margin-left: 109.5px;
+      margin-top: 30px;
+    }
+  
+    &__ollayn-class .image {
+      width: 314px;
+      height: 241px;
+      margin-left: 98px;
+      margin-top: 71px;
+    }
+
+    &__education .images {
+      width: 253px;
+      height: 253px;
+      margin-left: 128.5px;
+      margin-top: 78px;
+    }
+  
+    &__ollayn-course p {
+      margin-top: 23px;
+      margin-left: 55px;
+      width: 400px;
+      height: 90px;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+    }
+
+    &__ollayn-class p {
+      margin-top: 23px;
+      margin-left: 80px;
+      width: 350px;
+      height: 90px;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center; 
+    }
+  
+    &__education p {
+      width: 400px;
+      margin-left: 55px;
+      text-align: center;
+      height: 90px;
+      margin-top: 23px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    &__ollayn-course div, &__ollayn-class div, &__education div{
+      width: 205px;
+      height: 45px;
+      margin-left: 145px;
+      margin-top: 0px;
+    }
+  
+    &__ollayn-course div span, &__ollayn-class div span, &__education div span {
+      margin-top: 5px;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  
+    &__ollayn-course b, &__ollayn-class b, &__education b {
+      padding-top: 10px;
+      padding-left: 11px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width:320px) {
+  .section {
+    &__container {
+      width:290px;
+    }
+  
+    &__wrapper {
+      width: 290px;
+    }
+  }
+
+  .pricing {
+    &__about {
+      margin-top: 575px;
+      width: 290px;
+    }
+  
+    &__about h3 {
+      font-size: 36px;
+    }
+  
+    &__list {
+      margin-top: 32px;
+      width: 290px;
+      flex-direction: column;
+    }
+  
+    &__ollayn-course, &__ollayn-class, &__education{
+      width: 290px
+    }
+  
+    &__ollayn-course h4, &__ollayn-class h4, &__education h4 {
+      width: 290px;
+      text-align: center;
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    &__ollayn-course h4 {
+      padding-top: 20px;
+    }
+  
+    &__ollayn-class h4 {
+      padding-top: 21px;
+    }
+
+    &__ollayn-course .img {
+      width: 248px;
+      height: 248px;
+      margin-left: 21px;
+      margin-top: 30px;
+    }
+  
+    &__ollayn-class .image {
+      width: 257px;
+      height: 197px;
+      margin-left: 16.5px;
+      margin-top: 71px;
+    }
+
+    &__education .images {
+      width: 241px;
+      height: 253px;
+      margin-left: 16.5px;
+      margin-top: 78px;
+    }
+  
+    &__ollayn-course p {
+      margin-top: 23px;
+      margin-left: 0px;
+      width: 290px;
+      height: 90px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    &__ollayn-class p {
+      margin-top: 23px;
+      margin-left: 0px;
+      width: 290px;
+      height: 90px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__education p {
+      width: 290px;
+      margin-left: 0px;
+      height: 90px;
+      margin-top: 23px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    &__ollayn-course div, &__ollayn-class div, &__education div{
+      width: 170px;
+      height: 37px;
+      margin-left: 60px;
+      margin-top: 0px;
+    }
+  
+    &__ollayn-course div span, &__ollayn-class div span, &__education div span {
+      margin-top: 5px;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  
+    &__ollayn-course b, &__ollayn-class b, &__education b {
+      padding-top: 10px;
+      padding-left: 11px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}
